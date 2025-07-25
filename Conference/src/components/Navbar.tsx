@@ -8,7 +8,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
   return (
     <nav className="navbar">
-      <button onClick={() => onNavigate('landing')}>Home</button>
+      <button onClick={() => onNavigate('home')}>Home</button>
       <button onClick={() => onNavigate('venue')}>Venue</button>
       <button onClick={() => onNavigate('addons')}>Add-ons</button>
       <button onClick={() => onNavigate('meals')}>Meals</button>

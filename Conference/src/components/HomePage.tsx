@@ -1,15 +1,15 @@
 import React from 'react';
-import './LandingPage.css';
+import './HomePage.css';
 
-interface LandingPageProps {
+interface HomePageProps {
   onStart: () => void;
 }
 
-const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
+const HomePage: React.FC<HomePageProps> = ({ onStart }) => {
   return (
-    <div className="landing-container">
+    <div className="home-container">
       <div className="overlay" />
-      <div className="landing-content">
+      <div className="home-content">
         <div className="left-section">
           <h1>Conference Expense Planner</h1>
           <p>Plan your next major event with us!</p>
@@ -25,4 +25,4 @@ const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
   );
 };
 
-export default LandingPage;
+export default HomePage;
