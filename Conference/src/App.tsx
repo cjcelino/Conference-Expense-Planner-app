@@ -12,36 +12,47 @@ const App: React.FC = () => {
 
   const venues = [
     {
-      title: 'Grand Ballroom',
+      title: 'Large Meeting Room',
       price: 500,
-      capacity: 200,
-      img: 'https://passport-cdn.kiwicollection.com/blog/drive/uploads/2021/02/Fairmont-Copley-Grand-Ballroom-694x390.jpg',
+      capacity: 50,
+      img: 'https://i.pinimg.com/originals/8d/c0/6e/8dc06e02a176fbb2366d50d7f14ddce2.jpg',
     },
     {
-      title: 'Conference Room A',
+      title: 'Auditorium Hall',
       price: 300,
-      capacity: 100,
+      capacity: 200,
+      img: 'https://rulonco.com/wp-content/uploads/2022/04/Chisolm-Trail-HS-1-scaled.jpg',
+    },
+    {
+      title: 'Conference Room',
+      price: 300,
+      capacity: 80,
       img: 'https://www.wework.com/ideas/wp-content/uploads/sites/4/2021/08/20201008-199WaterSt-2_v1-scaled.jpg',
     },
     {
-      title: 'Outdoor Pavilion',
-      price: 400,
-      capacity: 150,
-      img: 'https://lancastercountybackyard.b-cdn.net/wp-content/uploads/fly-images/17622/poolside-timber-frame-pavilion-in-Pottstown-PA-scaled-1600x1600.jpg',
+      title: 'Small Meeting Room',
+      price: 200,
+      capacity: 10,
+      img: 'https://en.idei.club/uploads/posts/2023-08/1691098610_en-idei-club-p-small-meeting-room-design-ideas-dizain-kra-2.jpg',
     },
   ];
   const [venueCounts, setVenueCounts] = useState(Array(venues.length).fill(0));
 
   const addons = [
     {
+      title: 'Whiteboards',
+      price: 110,
+      img: 'https://image.shutterstock.com/image-photo/male-adult-man-suit-standing-260nw-530759449.jpg',
+    },
+     {
       title: 'Projector & Screen',
       price: 150,
       img: 'https://5.imimg.com/data5/SELLER/Default/2023/12/369127335/RC/QN/HM/181526573/led-screen-rental-service-500x500.png',
     },
     {
-      title: 'Stage Decoration',
-      price: 200,
-      img: 'https://3.bp.blogspot.com/-F4yOBaFVFOg/WnYR7L5DnsI/AAAAAAAAAog/YafA5rvIFBIbjtTT1zkzFqPVpu6GJogygCLcBGAs/s1600/2.jpg',
+      title: 'Signage',
+      price: 50,
+      img: 'https://cts.graphics/wp-content/uploads/2016/07/conference-sign.jpg',
     },
     {
       title: 'Sound System',
@@ -54,17 +65,22 @@ const App: React.FC = () => {
   const meals = [
     {
       title: 'Breakfast',
-      price: 10,
+      price: 50,
       img: 'https://copinettenyc.com/wp-content/uploads/2024/04/DSC00542-684x1024.jpg',
     },
     {
+      title: 'Snacks',
+      price: 10,
+      img: 'https://png.pngtree.com/background/20230613/original/pngtree-various-snack-food-and-snack-foods-picture-image_3379345.jpg',
+    },
+    {
       title: 'Lunch',
-      price: 15,
+      price: 200,
       img: 'https://i.pinimg.com/originals/74/a3/9b/74a39b06b161f1090729695d151df102.jpg',
     },
     {
       title: 'Dinner',
-      price: 20,
+      price: 150,
       img: 'https://www.architecture.com/-/media/819bc5e40cb840ff91f5391753b9b081.jpg',
     },
   ];
