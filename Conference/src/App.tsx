@@ -13,25 +13,25 @@ const App: React.FC = () => {
   const venues = [
     {
       title: 'Large Meeting Room',
-      price: 500,
+      price: 1500,
       capacity: 50,
       img: 'https://i.pinimg.com/originals/8d/c0/6e/8dc06e02a176fbb2366d50d7f14ddce2.jpg',
     },
     {
       title: 'Auditorium Hall',
-      price: 300,
+      price: 2000,
       capacity: 200,
       img: 'https://rulonco.com/wp-content/uploads/2022/04/Chisolm-Trail-HS-1-scaled.jpg',
     },
     {
       title: 'Conference Room',
-      price: 300,
+      price: 1300,
       capacity: 80,
       img: 'https://www.wework.com/ideas/wp-content/uploads/sites/4/2021/08/20201008-199WaterSt-2_v1-scaled.jpg',
     },
     {
       title: 'Small Meeting Room',
-      price: 200,
+      price: 500,
       capacity: 10,
       img: 'https://en.idei.club/uploads/posts/2023-08/1691098610_en-idei-club-p-small-meeting-room-design-ideas-dizain-kra-2.jpg',
     },

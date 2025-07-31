@@ -12,7 +12,7 @@
 }
 
 .navbar button {
-  background-color: #d1ff02;
+  background-color: #c3f707;
   border: none;
   padding: 10px 16px;
   border-radius: 5px;
@@ -22,5 +22,5 @@
 }
 
 .navbar button:hover {
-  background-color: #25e000;
+  background-color: #51ee32f8;
 }

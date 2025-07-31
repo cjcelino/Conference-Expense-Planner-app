@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
       <button onClick={() => onNavigate('venue')}>Venue</button>
       <button onClick={() => onNavigate('addons')}>Add-ons</button>
       <button onClick={() => onNavigate('meals')}>Meals</button>
-      <button onClick={() => onNavigate('details')}>Summary</button>
+      <button onClick={() => onNavigate('details')}>ShowDetails</button>
     </nav>
   );
 };

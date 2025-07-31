@@ -45,8 +45,8 @@ const ShowDetailsPage: React.FC<ShowDetailsPageProps> = ({
               <img src={item.img} alt={item.title} />
               <h4>{item.title}</h4>
               <p>Qty: {counts[i]}</p>
-              <p>Price: ${item.price}</p>
-              <p>Subtotal: ${item.price * counts[i]}</p>
+              <p>Price: ₱{item.price}</p>
+              <p>Subtotal: ₱{item.price * counts[i]}</p>
             </div>
           )
         ))}
@@ -63,7 +63,7 @@ const ShowDetailsPage: React.FC<ShowDetailsPageProps> = ({
         {renderItems('Venues', venues, venueCounts)}
         {renderItems('Add-ons', addons, addonCounts)}
         {renderItems('Meals', meals, mealCounts)}
-        <p className="grand-total">Grand Total: ${calculateTotal()}</p>
+        <p className="grand-total">Grand Total: ₱{calculateTotal()}</p>
       </div>
     </div>
   );

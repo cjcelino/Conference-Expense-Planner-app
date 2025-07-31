@@ -48,7 +48,7 @@ const VenuePage: React.FC<VenuePageProps> = ({
               <img src={venue.img} alt={venue.title} />
               <h3>{venue.title}</h3>
               <p>Capacity: {venue.capacity}</p>
-              <p>Price: ${venue.price}</p>
+              <p>Price: ₱{venue.price}</p>
               <div className="counter">
                 <button onClick={() => handleDecrement(index)}>-</button>
                 <span>{venueCounts[index]}</span>
@@ -58,8 +58,7 @@ const VenuePage: React.FC<VenuePageProps> = ({
           ))}
         </div>
 
-        {/* ✅ Total Venue Cost */}
-        <p className="venue-total">Total Cost: ${totalVenueCost}</p>
+        <p className="venue-total">Total Cost: ₱{totalVenueCost}</p>
       </div>
     </div>
   );
